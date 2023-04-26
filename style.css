@@ -1,0 +1,84 @@
+body{
+    background-image: url(imagens/maze.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:whitesmoke;
+    text-align: right;
+    margin-right: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+h1{
+    font-size: 90px; 
+    margin-right: 50px;
+    margin-top: 350px;
+    color: darkgrey;
+}
+p{
+    color: aliceblue;
+    padding: 0px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+ul{
+    margin-right: 50px;
+    list-style: none;
+}
+span{
+    color: bisque;
+}
+li{
+    display: inline;
+    }
+ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+}
+@media (max-width: 640px){
+    body{
+        background-size: cover;
+        text-align: center;
+    }
+    h1{
+        font-size: 10px;
+        margin-top: 265px;
+    }
+    p{
+        font-size: 20px
+    }
+}
+@media (max-width: 768px){
+    body{
+        background-size: cover;
+        text-align: left;
+    }
+    h1{
+        font-size: 60px;
+        margin-top: 265px;
+    }
+    p{
+        font-size: 20px
+    }
+}
+@media (max-width: 1024px){
+    body{
+        background-size: cover;
+        text-align: left;
+    }
+    h1{
+        font-size: 60px;
+        margin-top: 265px;
+    }
+}
+@media (max-width: 1280px){
+    body{
+        background-size: cover;
+        text-align: left;
+    }
+    h1{
+        font-size: 60px;
+        margin-top: 265px;
+    }
+}
